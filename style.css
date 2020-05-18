@@ -1,0 +1,64 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	color: #6c6a6b;
+}
+
+a {
+	text-decoration: none;
+}
+
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+header {
+	width: 100%;
+}
+
+.headline {
+	height: 400px;
+	background-image: url(img/mv.jpg);
+	background-size: cover;
+	background-position: bottom;
+}
+
+.headline-text {
+	padding: 20px;
+	font-size: 32px;
+}
+
+main {
+	width: 840px;
+	margin: 50px auto;
+
+}
+
+.service1 {
+	border-bottom: 1px solid #6c6f6e;
+	padding-bottom: 30px;
+	margin-bottom: 30px;
+
+}
+
+.service2 {
+	border-bottom: 1px solid #6c6f6e;
+	padding-bottom: 30px;
+	margin-bottom: 30px;
+
+}
+
+.service3 {
+	border-bottom: 1px solid #6c6f6e;
+	padding-bottom: 30px;
+	margin-bottom: 30px;
+}
+
+.service4 {
+	border-bottom: 1px solid #6c6f6e;
+	padding-bottom: 30px;
+	margin-bottom: 30px;
+}
